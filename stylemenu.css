@@ -57,7 +57,7 @@ h3 {
     background: url("Icon.png");
     background-size: cover;
     color: #fff;
-    border-radius: 2.5px;
+    border-radius: 5px;
     display: inline-block;
     text-shadow: 0px 0px 20px rgb(0, 76, 255);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -68,13 +68,15 @@ h3 {
 h3 a {
     color: #ffffff;
     text-decoration: none;
-    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    text-shadow: 0px 0px 10px rgb(0, 76, 255);
 }
 
 h3 a:hover {
     color: #89d6ff;
 }
-
+h3 a:focus {
+    outline: none;
+}
 h3:hover {
     background-color: #89d6ff;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);

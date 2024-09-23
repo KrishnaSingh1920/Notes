@@ -49,6 +49,10 @@ h3 a:hover {
     color: #89d6ff;
 }
 
+h3 a:focus {
+    outline: none;
+}
+
 h3 {
     margin-left: 20px;
 }
