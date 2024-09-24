@@ -1,6 +1,6 @@
 body {
 
-    font-family: Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: url("Bg.png");
     background-size: cover;
     background-position: center;
@@ -84,7 +84,7 @@ h3:hover {
 .notes
 {
     margin-top: 5em;
-    padding: 2.5em;
-    font-size: 32px;
+    padding: 1em;
+    font-size: 48px;
 }
 
